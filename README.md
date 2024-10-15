@@ -41,9 +41,24 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
+**FULL ADDER**
+![image](https://github.com/user-attachments/assets/5f1608fe-2144-4991-bc1c-9e97d813bfb7)
+
+**FULL SUBTRACTOR**
+![image](https://github.com/user-attachments/assets/c5cd8bfc-8e05-4c09-8840-bede4485cd37)
+
+
 **Procedure**
 
-Write the detailed procedure here
+1. Open Quartus Software   
+2. Create a New Project  
+3. Create a New Design File  
+4. Compile the Program  
+5. Generate RTL Schematic  
+6. Create Nodes for Inputs/Outputs  
+7. Generate Timing Diagram  
+8. Simulate Different Input Combinations  
+9. Save Your Work  
 
 **Program:**
 
