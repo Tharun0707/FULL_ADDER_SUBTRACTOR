@@ -1,5 +1,8 @@
 # FULL_ADDER_SUBTRACTOR
 
+### NAME : THARUN SRIDHAR 
+### REGISTER NO : 212223230230
+
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
 **AIM:**
@@ -44,12 +47,48 @@ Write the detailed procedure here
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+**DEVELOPED BY : THARUN SRIDHAR**
+**REGISTER NO : 212223230230**
+
+**FULL ADDER :**
+
+```
+module Exp4(a,b,cin,sum,carry);
+input a,b,cin;
+output sum,carry;
+assign sum=(a^b^cin);
+assign carry=((a&b) | (b&cin) | (cin&a));
+endmodule
+```
+
+**FULL SUBTRACTOR :**
+
+```
+module exp42(a,b,bin,borr,diff);
+input a,b,bin;
+output borr,diff;
+assign diff=(a^b^bin);
+assign borr=((~a&b) | (b&bin) | (bin&~a));
+endmodule
+```
 
 **RTL Schematic**
 
+**FULL ADDER :**
+![Screenshot (33)](https://github.com/user-attachments/assets/22148e0f-c140-414b-9067-5c9232ccae4a)
+
+**FULL SUBTRACTOR :**
+![Screenshot (35)](https://github.com/user-attachments/assets/53ccae34-1e46-4710-abfe-5f8ed4f54c5a)
+
+
 **Output Timing Waveform**
+
+**FULL ADDER :**
+![Screenshot (34)](https://github.com/user-attachments/assets/36c30f2b-b3ee-4a07-9b89-9f113a678411)
+
+**FULL SUBTRACTOR :**
+![Screenshot (36)](https://github.com/user-attachments/assets/751f1f51-abe1-4685-8886-6e802607827a)
+
 
 **Result:**
 
